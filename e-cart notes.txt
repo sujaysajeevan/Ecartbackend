@@ -1,0 +1,26 @@
+                        note server creation
+
+   1 create a server folder
+   2 create pckage.json npm init
+   3 create index.json,.env files in server folder
+   4 install express,cores,dotenv and mongoose
+   5 import express,cores,dotenv in index.json
+   6 create server app using express
+   7 use cors(),express.jsom() in server app
+   8 Define port number
+   9 to define routes for client request,create routes folder and router.js files
+        -import express
+        -using express create an object for router in order to setup path
+        -resolving client requests
+
+
+
+                        MONGODB atlas connection
+   1 copy connection string from atlas and paste it into .rnv files
+   2 create db folder, inside connection.js files
+   3 in connection.js import mongoose
+   4 get db connection string from .env files
+   5 use mongoose connect -MONGODB within node application
+    6 import connection.js in index.ja
+    7 create a model/collection to store product im model folder(productname)
+    8 export schema
