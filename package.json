@@ -9,7 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "engine":"node",
+  "engine":{"node":">=14.20.1"},
+  
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
